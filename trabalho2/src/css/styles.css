@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Kanit:wght@300&display=swap');
+@import url('https://webgl2fundamentals.org/webgl/resources/webgl-tutorials.css');
+body {
+  margin: 0;
+  background-color: white;
+  font-family: 'Fredoka One', cursive;
+}
+canvas {
+  width: 1162px;
+  height: 466px;
+  display: block;
+  background-image: url(../images/1016.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  border: 1px solid #8f002e;
+}
+
+#box {
+  height: 150px;
+  width: 900px;
+  margin: 20px 10px 0 auto;
+  background-color: #8f002e;
+  position: relative;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+#box p {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px;
+  width: 660px;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#next {
+  position: absolute;
+  top: 95px;
+  right: 370px; 
+  
+}
+
+#next button, #start, #start2, #skip button {
+  color: #8f002e;
+  font-size: 22px;
+  font-family: 'Fredoka One', cursive;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+}
+
+#next button:hover, #start:hover, #start2:hover, #skip button:hover {
+  color: white;
+  background-color: #637400;
+}
+
+#start {
+  width: 100px;
+  margin: 50px auto;
+}
+
+#start2 {
+  width: 200px;
+  margin: 50px auto;
+}
+
+#skip button {
+  position: absolute;
+  top: 92px;
+  right: 20px;
+  width: 80px;
+}
+
+#start2:disabled {
+  background: #ccc;
+  color: rgb(105, 104, 104);
+}
+
+#personagem {
+  position: absolute;
+  top: 300px;
+  left: 0px;
+}
+
+#personagem img {
+  width: 350px;
+}
+
